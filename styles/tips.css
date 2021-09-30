@@ -1,0 +1,16 @@
+
+.tips {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+
+.tips__head {
+
+}
+.tips__list {
+
+}
+ol li {
+    padding: 20px 0px;
+}

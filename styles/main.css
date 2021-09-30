@@ -1,0 +1,34 @@
+@import url("./qutoes.css");
+@import url("./locations.css");
+@import url("./tips.css");
+@import url("./fishies.css");
+
+/* * {
+    border: 1px black dashed;
+} */
+body {
+    color: white;
+    background-image: url("https://images.template.net/wp-content/uploads/2014/12/Amazing-Aquarium-Background.jpg?width=600") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: lighten;
+
+}
+
+.header {
+    text-align: center;
+}
+.right {
+    flex: 1;
+    border: 2px black solid ;
+}
+.left {
+    flex: 2;
+}
+.content {
+display: flex;
+}
+.footer {
+
+}

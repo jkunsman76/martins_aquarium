@@ -1,0 +1,34 @@
+
+.quotes {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 25% 5%;
+    margin: 0%;
+    background-image: url("http://www.clker.com/cliparts/t/7/e/l/m/K/wide-thought-bubble-md.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    color: black;
+}
+.quotes__title {
+    animation: pulse 1s ease-out;
+}
+@keyframes pulse {
+    0% {
+    color: white;
+    }
+    100% {
+      color: black;
+      }
+  }
+.quotes__head {
+    animation: pulse 2s infinite 2s  ;
+    padding: 0%;
+    margin: 0%;
+}
+.quotes__phrase {
+    animation: pulse 2s infinite 2s alternate;
+    padding: 0%;
+    margin: 0%;
+}
