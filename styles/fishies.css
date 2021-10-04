@@ -1,23 +1,14 @@
-.fishies {
-display: flex;
-flex-direction: column
-}
-.fishies__title {
-text-align: center;
-}
 .fish {
 display: flex;
-border: blue 5px solid;
-margin: 1px 0px;
+flex-direction: column;
+text-align: center;
 }
-.img{
+
+.img {
 flex: 1;
 }
 .fish__info {
 flex: 3;
-}
-.fish__list {
-
 }
 ul li {
     padding: 5px 0px;
