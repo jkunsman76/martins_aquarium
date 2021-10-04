@@ -2,7 +2,7 @@ import {getFish} from './database.js'
 
 export const FishList = () => {
     const fishes = getFish()
-    const htmlString = '<article class="fishList">'
+    let htmlString = '<article class="fishList">'
     for (const fish of fishes) {
         htmlString += `<section class="fish__card">
         <div><img  class="fish__image image--card" src="${fish.image}" /></div>
