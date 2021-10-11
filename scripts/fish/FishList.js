@@ -18,3 +18,5 @@ htmlString += `</article>`
 
 return htmlString
 }
+// call the holyfish functions in the fishlist function instead of get fish.
+//you will need to call each function indiviually
